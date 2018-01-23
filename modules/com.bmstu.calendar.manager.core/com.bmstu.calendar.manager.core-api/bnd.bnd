@@ -1,0 +1,9 @@
+Bundle-Name: com.bmstu.calendar.manager.core-api
+Bundle-SymbolicName: com.bmstu.calendar.manager.core.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.bmstu.calendar.manager.core.exception,\
+	com.bmstu.calendar.manager.core.model,\
+	com.bmstu.calendar.manager.core.service,\
+	com.bmstu.calendar.manager.core.service.persistence
+-includeresource: META-INF/service.xml=../com.bmstu.calendar.manager.core-service/service.xml

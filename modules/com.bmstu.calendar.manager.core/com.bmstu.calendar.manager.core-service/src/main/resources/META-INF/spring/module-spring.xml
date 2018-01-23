@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="com.bmstu.calendar.manager.core.service.impl.CalendarLocalServiceImpl" id="com.bmstu.calendar.manager.core.service.CalendarLocalService" />
+	<bean class="com.bmstu.calendar.manager.core.service.impl.CalendarServiceImpl" id="com.bmstu.calendar.manager.core.service.CalendarService" />
+	<bean class="com.bmstu.calendar.manager.core.service.persistence.impl.CalendarPersistenceImpl" id="com.bmstu.calendar.manager.core.service.persistence.CalendarPersistence" parent="basePersistence" />
+</beans>
